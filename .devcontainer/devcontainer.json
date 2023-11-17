@@ -6,7 +6,11 @@
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	// "features": {
+		"github.copilot.advanced",
+		"github.copilot.editor.enableAutoCompletions",
+		"github.copilot.enable"
+	}
 
 	// Configure tool-specific properties.
 	"customizations": {
