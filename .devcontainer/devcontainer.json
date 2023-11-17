@@ -6,11 +6,7 @@
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {
-		"github.copilot.advanced",
-		"github.copilot.editor.enableAutoCompletions",
-		"github.copilot.enable"
-	}
+	// "features": {}
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -20,7 +16,10 @@
 			"extensions": [
 				"streetsidesoftware.code-spell-checker",
 				"ms-python.python",
-				"ms-python.vscode-pylance"
+				"ms-python.vscode-pylance",
+				"github.copilot.advanced",
+				"github.copilot.editor.enableAutoCompletions",
+				"github.copilot.enable"
 			]
 		}
 	},
